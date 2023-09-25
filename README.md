@@ -40,16 +40,13 @@ Usage
 Basic Usage
 To create a Spring project structure in the current directory with default classes, use:
 
-bash
-Copy code
+
 python spring_structure.py -d MyProject
 This will create directories for controller, model, repository, service, and config and generate default classes in each. If no class name is provided, the default class names will be used (e.g., ExampleController, ExampleService, etc.).
 
 Custom Class Generation
 To create a Spring project structure with customizable classes, use the -e flag:
 
-bash
-Copy code
 python spring_structure.py -d -e MyProject
 This will create the directories and customizable classes based on provided templates. If no class name is provided, the default class names will be used.
 
@@ -65,8 +62,7 @@ Contributions are welcome! If you have suggestions, bug reports, or would like t
 License
 This project is licensed under the MIT License.
 
-vbnet
-Copy code
+
 
 Here are the modifications to the project structure:
 
@@ -87,7 +83,6 @@ create-spring-structure/
 ├── requirements.txt # Dependencies
 └── LICENSE # License information
 
-javascript
-Copy code
+
 
 This project structure includes a `cli-config` directory to store configuration 
